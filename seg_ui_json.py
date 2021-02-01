@@ -12,6 +12,7 @@ def seg_ui_json(img_org):
         #im1 = cv2.imread(path.encode('utf-8', 'surrogateescape').decode('utf-8', 'surrogateescape'))
 
         ret,thresh1 = cv2.threshold(im1,180,255,cv2.THRESH_BINARY_INV)
+        print("test")
         #plt.subplot(2,3,4+1),plt.imshow(thresh1,'gray')
         #plt.show()
         #kernel = np.ones((5,5),np.uint8)
